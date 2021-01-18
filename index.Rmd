@@ -71,7 +71,7 @@ La séance a été comporté par deux moments:
 
 ```{r, include=TRUE, layout="l-page"}
 
-knitr::include_graphics("Figures/Brainstorming-Jan17.png")
+knitr::include_graphics("images/Brainstorming-Jan17.png")
 ```
 
 
