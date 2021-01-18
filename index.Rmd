@@ -38,7 +38,7 @@ require(rmarkdown)
 
 # But de ce document
 
-**Dernière mise à jour du document: `r Sys.Date()`**
+**Dernière mise à jour du document: `r format(Sys.time(), "%b %d/%Y  %X ")`**
 
 Document en construction pour le bilan de competences du LF2L
 
@@ -327,7 +327,7 @@ Competence.LF2L$Type <- as.factor(Competence.LF2L$Type)
 Competence.LF2L$Domain <- factor(Competence.LF2L$Domain , levels = c("Sci", "Tech", "Admin", "Logiciels") )
 
 
-#write_excel_csv2(Competence.LF2L, "LF2L-Competences.csv")
+#write_excel_csv2(Competence.LF2L, "LF2L-Competences-V-01.csv")
 
 ```
 
