@@ -23,6 +23,12 @@ require(rmarkdown)
 #render("index.Rmd", output_format = "word_document")
 #render("index.Rmd", output_format = "pdf_document")
 #render("index.Rmd", output_format = "elsevier_article")
+require(metathis)
+
+#Create myheader.html
+fileConn <- file("metadata.html")
+writeLines('<meta name="robots" content="noindex">', fileConn)
+close(fileConn)
 
 ```
 

@@ -13,4 +13,6 @@ output:
   distill::distill_article:
     toc: true
     theme: Infra-theme.css
+    includes:
+       in_header: metadata.html
 
