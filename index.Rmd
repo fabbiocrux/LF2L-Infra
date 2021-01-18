@@ -23,12 +23,15 @@ require(rmarkdown)
 #render("index.Rmd", output_format = "word_document")
 #render("index.Rmd", output_format = "pdf_document")
 #render("index.Rmd", output_format = "elsevier_article")
-require(metathis)
+#require(metathis)
 
 #Create myheader.html
-fileConn <- file("metadata.html")
-writeLines('<meta name="robots" content="noindex">', fileConn)
-close(fileConn)
+# fileConn <- file("metadata.html")
+# writeLines('<meta name="robots" content="noindex">', fileConn)
+# close(fileConn)
+
+# library(diffr)
+# diffr("LF2L-Competences.csv", "Alex.csv")
 
 ```
 
@@ -94,15 +97,30 @@ tribble(
 
  # Recherche et Innovation ----
  
+"Recherche et Innovation", "Sci",  "Conception des projet de Recherche et développement, d’études et prospective",
+
 "Recherche et Innovation", "Sci", 
-   "Conception des projet de Recherche et développement, d’études et prospective",
+   "Développer de nouvelles méthodes quantitatives et qualitatives pour des projets de recherche en Innovation",
 
-"Recherche et Innovation", "Tech", 
-   "Utilisation et dévelopment des méthodes quantitatives et qualitatives pour des projets de recherche en Innovation",
+"Recherche et Innovation","Tech",
+   "Mettre en oeuvre des méthodes quantitatives et qualitatives pour des projets de recherche en Innovation",
+   
+"Recherche et Innovation","Sci",
+   "Réaliser les outils numériques exploitant les nouvelles méthodes",
 
+"Recherche et Innovation", "Tech",
+ "Rédiger des rapport scientifiques, techniques pour des parties prenantes des projets",
 
-"Recherche et Innovation", "Tech", 
-   "Capacité à redacter des rapport scientifiques, techniques pour des des parties prenante des projets",
+"Système d'information", "Tech", 
+   "Concevoir l'architecture et le fonctionnement du système d'information",
+"Système d'information", "Tech", 
+   "Gérer la réalisation de système d'information selon la methode agile", 
+"Système d'information", "Tech", 
+   "Concevoir l'experience utilisateur ( réalisation et evaluation de maquette)",
+"Système d'information", "Tech", 
+   "Developper des systèmes informatiques en equipe",
+"Système d'information", "Tech", 
+   "Déployer les developments informatiques sur des serveurs",
 
 "Recherche et Innovation", "Tech", 
    "Faire le point sur l'état de l'art et les limites des savoirs au sein d'un domaine de recherche en Innvoations, aux échelles locale, nationale et internationale",
@@ -168,7 +186,7 @@ tribble(
 "Impresion 3D Composite", "Tech", 
    "Matrise de procédé d'impression 3D polymer et fibre de reinforcement",
 
-"Manteinance prac machines", "Admin", 
+"Manteinance parc machines", "Admin", 
    "Programation et réalisation de mantenance des parc de machines",
 
 
@@ -223,6 +241,8 @@ tribble(
 "Base de donnés", "Sci", 
    "Implementation des machines virtuels, basse des donnés et réseau d'information",
 
+"Pilotage projet", "Admin", 
+   "Piloter un 'Work package' dans un projet européen",
 
 # Gestion ----
 
@@ -265,7 +285,7 @@ tribble(
 "Rstudio", "Logiciels", 
    "Logiciels de data analysis et data visualization",
 
-"Python - Jupyter", "Logiciels", 
+"Jupyter", "Logiciels", 
    "Logiciels de data analysis et data visualization",
 
 "Intuiface", "Logiciels", 
@@ -273,6 +293,31 @@ tribble(
 
 "Matlab", "Logiciels", 
    "Logiciel d'analyse mathématique et algebraique",
+
+
+"Nvivo", "Logiciels", "Logiciel d'analyse qualitative de données",
+
+"Onshape", "Logiciels", "Logiciel de modélisation 3D (CAO)",
+
+"IBM rational rhapsody", "Logiciels", "Logiciel de modélisation des systèmes", 
+
+"IceSL", "Logiciels", "Logiciel de modélisation de slicing pour impression 3D", 
+
+"R", "Langage informatique", "Traitement de données", 
+
+"Python", "Langage informatique", "Traitement de données, dev web", 
+
+"Javascript", "Langage informatique", "Dev web", 
+
+"PHP", "Langage informatique", "Dev web", 
+
+"OWL", "Langage informatique", "Dev web", 
+
+"Adobe XD", "Logiciels", "Logiciel de conception UI/UX", 
+
+"Unity", "Logiciels", "Logiciels de dévelopement VR", 
+
+"Docker", "Logiciels", "Logiciels de gestion des containers" 
 
 )
 
@@ -292,13 +337,14 @@ Tableau réalisé à partir de la dernière version du document de MURAL:
 
 ```{r, layout="l-page", include=TRUE}
 
+
 Competence.LF2L %>%  arrange(Domain ) %>% select(-Domain) %>% 
    kbl( caption = "Competences LF2L") %>%
    kable_styling(bootstrap_options = c("striped", "hover")) %>% 
-   pack_rows("Compétences Scientifiques / Méthodologiques", 1, 11) %>%
-   pack_rows("Compétences Techniques / Pratiques", 12, 31) %>%
-   pack_rows("Compétences Administratives / Financières / RH", 32, 42) %>%
-   pack_rows("Logiciels", 43, 49) %>%
+   pack_rows("Compétences Scientifiques / Méthodologiques", 1, 13) %>%
+   pack_rows("Compétences Techniques / Pratiques", 13, 38) %>%
+   pack_rows("Compétences Administratives / Financières / RH", 39, 50) %>%
+   pack_rows("Logiciels", 51, 69) %>%
    collapse_rows(columns = 1, valign = "middle") 
    
    
