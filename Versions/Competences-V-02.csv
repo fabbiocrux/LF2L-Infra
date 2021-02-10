@@ -1,0 +1,70 @@
+﻿Domaine;Competence;Nature;Type
+Conception projet recherche en Innovation collaborative & territoirial;Conception des projet de Recherche et développement, d’études et prospective;Sci;Recherche et Innovation
+Conception projet recherche en Innovation collaborative & territoirial;Développer de nouvelles méthodes quantitatives et qualitatives pour des projets de recherche en Innovation;Sci;Recherche et Innovation
+Conception projet recherche en Innovation collaborative & territoirial;Réaliser les outils numériques exploitant les nouvelles méthodes;Sci;Recherche et Innovation
+Conception projet recherche en Innovation collaborative & territoirial;Development de méthodes de management ciblés pour les espaces de innovation collaborative et tieurs-lieux;Sci;Espaces d'Innovation collaborative
+Conception projet recherche en Innovation collaborative & territoirial;Development de méthodes pour piloter des projets de developpement territorial;Sci;Conceptualisation de projects d'Innovation territorial  & Smart City
+Créativité et gestion des connaissances;Conception des projet de recherche sur la Créativité et géneration des idées;Sci;Créativité
+Créativité et gestion des connaissances;Developement et implementation des methodologies de Innovation collaborative;Sci;Open Innovation
+Data management & AI;Utilisation et dévelopment des méthodologies de  modélisation des systèmes multi-agents;Sci;Théorie des systèmes intelligentes
+Data management & AI;Dévelopement des algortimes d'apprentisage automatique;Sci;Alogritmes d'Apprentissage
+Data management & AI;Implementation des machines virtuels, basse des donnés et réseau d'information;Sci;Base de donnés
+Environnement immersives et Realité virtuelle;Development des protocoles de performance sur les ICE;Sci;Theorie sur Environment collaboratifs e immersives spaces
+Evaluation par l'usage;Development de méthodologies et des protocoles d'évaluation de nouvelle produits / filière en model living lab;Sci;Living lab
+Veille technologique;Réalisation de la veille technologique sur les avances de procédés de matérialisation et protoypage en open source;Sci;Veille technologique
+Créativité et gestion des connaissances;Animation d'ateliers de Créativité et Innovation stratégique;Tech;Créativité
+Créativité et gestion des connaissances;Conception et utilisation des outils support (numeriques et physiques) pour des ateliers de Créativité et Innovation;Tech;Créativité
+Créativité et gestion des connaissances;Utilisation de méthodes agiles de collaboration pour development projets e workshops;Tech;Open Innovation
+Créativité et gestion des connaissances;Utilisation des support numeriques pour presentation et slection des idées;Tech;Fiches Idées
+Data management & AI;Concevoir l'architecture et le fonctionnement du système d'information;Tech;Système d'information
+Data management & AI;Gérer la réalisation de système d'information selon la methode agile;Tech;Système d'information
+Data management & AI;Concevoir l'experience utilisateur ( réalisation et evaluation de maquette);Tech;Système d'information
+Data management & AI;Developper des systèmes informatiques en equipe;Tech;Système d'information
+Data management & AI;Déployer les developments informatiques sur des serveurs;Tech;Système d'information
+Data management & AI;Utilisation et deployment de services web IaaS;Tech;Services IaaS
+Design et materialization;Conception de modèles et prototypes de produit en CAO;Tech;Modeles CAO
+Design et materialization;Development des prototypes et Objets Intermedaires de Conception (OIC) electroniques;Tech;Prototypage electronique
+Design et materialization;Development des prototypes et Objets Intermedaires de Conception (OIC) mécaniques;Tech;Prototypage Mécanique
+Design et materialization;Development des prototypes et Objets Intermedaires de Conception (OIC) opén hardware connectés;Tech;Prototypage Objets connectés
+Environnement immersives et Realité virtuelle;Creation e contenu en VR para prototypos a une échelle produit et territoire;Tech;Modeles VR
+Environnement immersives et Realité virtuelle;Creation des dispositifs et de modules pour expérimentation VR;Tech;Technologie VR
+Evaluation par l'usage;Utilisation et explotation des données issue de technologies Eye-tracking;Tech;Technologies Eye-tracking
+Evaluation par l'usage;Development de protocoles et questionnaire pour l'evaluation d'usage;Tech;Questionnaires
+Evaluation par l'usage;Utilisation et creation des basse des données explotables par capteurs des capteurs physiologiques;Tech;Capteurs physiologiques
+Fabrication additive;Matrise de procédé d'impression 3D par deposition de filament fondu;Tech;Impresion 3D Dépôt de fil fondu
+Fabrication additive;Matrise de procédé d'impression 3D SLA;Tech;Impresion 3D Stereolithographie
+Fabrication additive;Matrise de procédé d'impression 3D polymer et fibre de reinforcement;Tech;Impresion 3D Composite
+Pilotage recherche en Innovation collaborative;Mettre en oeuvre des méthodes quantitatives et qualitatives pour des projets de recherche en Innovation;Tech;Recherche et Innovation
+Pilotage recherche en Innovation collaborative;Rédiger des rapport scientifiques, techniques pour des parties prenantes des projets;Tech;Recherche et Innovation
+Pilotage recherche en Innovation collaborative;Faire le point sur l'état de l'art et les limites des savoirs au sein d'un domaine de recherche en Innvoations, aux échelles locale, nationale et internationale;Tech;Recherche et Innovation
+Créativité et gestion des connaissances;Gestion (Achat et renouvellment) des licences de logiciesl pour la créativié;Admin;Créativité
+Gestion Administrative et Finanacière;Piloter un 'Work package' dans un projet européen;Admin;Pilotage projet EU
+Gestion Administrative et Finanacière;Pilotage administratif des projet de recherche au sein de l'UL;Admin;Pilotage projet UL
+Gestion Administrative et Finanacière;Mise en concurrences des fournisseurs dans les processus d'achat;Admin;Achats UL
+Gestion Administrative et Finanacière;Conduite d'entretiens pour nouvelle personnel;Admin;RH
+Gestion Administrative et Finanacière;Établissement de contrat de partenairiat avec acteur hors UL;Admin;Partenariats inter/extra UL
+Gestion Administrative et Finanacière;Suivi de achats;Admin;Gestion de commandes UL
+Gestion Administrative et Finanacière;Redaction de devis et propositions de prestations;Admin;Prestations UL
+Gestion Administrative et Finanacière;Reservation des equipements et des lieux pour de séances de travail;Admin;Gestion du site LF2L
+Gestion Administrative et Finanacière;Créations et mantenances de liens avec des institutions proches et liés au LF2L;Admin;Lien avec des institutions Intra / Extra UL
+Montage projet recherche en Innovation collaborative;Création et estimation de budget de fonctionement et Investissement pour des projets;Admin;Recherche et Innovation
+Veille technologique;Programation et réalisation de mantenance des parc de machines;Admin;Manteinance parc machines
+Logiciels & outils TIC Recherche;Utilisation d'outil collaborative;Logiciels;Github
+Logiciels & outils TIC Recherche;Outil de recherche sur l'état de l'art;Logiciels;Vosviewer
+Logiciels & outils TIC Recherche;Création des sites statiques pour des projests;Logiciels;Dévelopement web (Pages Statiques)
+Logiciels & outils TIC Recherche;Logiciels de data analysis et data visualization;Logiciels;Rstudio
+Logiciels & outils TIC Recherche;Logiciels de data analysis et data visualization;Logiciels;Jupyter
+Logiciels & outils TIC Recherche;Logiciel de création de contenu;Logiciels;Intuiface
+Logiciels & outils TIC Recherche;Logiciel d'analyse mathématique et algebraique;Logiciels;Matlab
+Logiciels & outils TIC Recherche;Logiciel d'analyse qualitative de données;Logiciels;Nvivo
+Logiciels & outils TIC Recherche;Logiciel de modélisation 3D (CAO);Logiciels;Onshape
+Logiciels & outils TIC Recherche;Logiciel de modélisation des systèmes;Logiciels;IBM rational rhapsody
+Logiciels & outils TIC Recherche;Logiciel de modélisation de slicing pour impression 3D;Logiciels;IceSL
+Logiciels & outils TIC Recherche;Logiciel de conception UI/UX;Logiciels;Adobe XD
+Logiciels & outils TIC Recherche;Logiciels de dévelopement VR;Logiciels;Unity
+Logiciels & outils TIC Recherche;Logiciels de gestion des containers;Logiciels;Docker
+Logiciels & outils TIC Recherche;Traitement de données;Langage informatique;R
+Logiciels & outils TIC Recherche;Traitement de données, dev web;Langage informatique;Python
+Logiciels & outils TIC Recherche;Dev web;Langage informatique;Javascript
+Logiciels & outils TIC Recherche;Dev web;Langage informatique;PHP
+Logiciels & outils TIC Recherche;Dev web;Langage informatique;OWL
