@@ -87,6 +87,7 @@ knitr::include_graphics("images/Brainstorming-Jan17.png")
 # Résultat
 
 
+
 ```{r Tabla.domaines, include=FALSE}
 
 Domaines <- 
@@ -119,7 +120,6 @@ tribble(
 "Fabrication additive", "Impresion 3D Dépôt de fil fondu", "Tech", 
 "Fabrication additive", "Impresion 3D Stereolithographie", "Tech", 
 "Fabrication additive", "Impresion 3D Composite", "Tech", 
-
 
 "Veille technologique" ,"Manteinance parc machines", "Admin", 
 "Veille technologique", "Veille technologique", "Sci", 
